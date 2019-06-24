@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
     fun encoder(view: View){
-        if(editText.text != null) {
+        if(editText.text.toString() == "") {
             Deformed.text = "ERROR"
             return
         }
