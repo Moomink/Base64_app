@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Base64_Encoder</string>
+    <string name="encode">Encode</string>
+    <string name="decode">Decode</string>
+    <string name="button">Change</string>
+    <string name="Changed">変換後</string>
+    <string name="Edit_text">Input_Text</string>
+    <string name="Edit_Hint">変換したい文字を入力してください。</string>
+</resources>
