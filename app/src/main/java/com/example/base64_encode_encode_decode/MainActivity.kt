@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
     }
     fun encoder(view: View){
         if(editText.text.toString() == "") {
-            Deformed.text = "ERROR"
+            Deformed.text = getString(R.string.False)
             return
         }
         val text: List<Char> = editText.text.toString().toList()

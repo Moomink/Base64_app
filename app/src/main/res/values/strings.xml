@@ -6,4 +6,5 @@
     <string name="Changed">変換後</string>
     <string name="Edit_text">Input_Text</string>
     <string name="Edit_Hint">変換したい文字を入力してください。</string>
+    <string name="False">ERROR</string>
 </resources>
