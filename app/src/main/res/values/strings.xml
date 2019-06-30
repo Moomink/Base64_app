@@ -7,4 +7,6 @@
     <string name="Edit_text">Input_Text</string>
     <string name="Edit_Hint">変換したい文字を入力してください。</string>
     <string name="False">ERROR</string>
+    <string name="None_String">None String</string>
+    <string name="Not_BASE64">Not BASE64</string>
 </resources>

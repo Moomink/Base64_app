@@ -13,7 +13,7 @@
             android:layout_height="66dp"
             android:id="@+id/button2" tools:ignore="MissingConstraints" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            android:onClick="encoder" android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
+            android:onClick="change" android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"/>
     <TextView
@@ -58,12 +58,12 @@
                 android:text="@string/encode"
                 android:layout_width="81dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/Encode_Button"/>
+                android:id="@+id/Encode_Button" android:checked="false"/>
         <RadioButton
                 android:text="@string/decode"
                 android:layout_width="81dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/Decode_Button"/>
+                android:id="@+id/Decode_Button" android:checked="false"/>
     </RadioGroup>
 
 </android.support.constraint.ConstraintLayout>
