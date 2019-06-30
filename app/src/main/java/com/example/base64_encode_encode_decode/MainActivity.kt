@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
         val rg:RadioGroup = findViewById(R.id.radioGroup)
 
         if(editText.text.toString() == "") {
-            Deformed.text = getString(R.string.False)
             return
         }
         val ck:String  = findViewById<RadioButton>(rg.getCheckedRadioButtonId()).getText().toString()
